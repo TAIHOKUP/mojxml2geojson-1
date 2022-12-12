@@ -15,12 +15,10 @@
 pip install -e .
 ```
 
-### ~~From Github~~
-
-- NOT WORKING YET
+### From Github
 
 ```bash
-pip install git+https://github.com/${user}/mojxml2geojson.git
+pip install git+https://github.com/koswatana/mojxml2geojson.git
 ```
 
 ## Usege
