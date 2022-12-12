@@ -18,7 +18,7 @@ pip install -e .
 ### From Github
 
 ```bash
-pip install git+https://github.com/koswatana/mojxml2geojson.git
+pip install -e git+https://github.com/koswatana/mojxml2geojson.git#egg=mojxml2geojson
 ```
 
 ## Usege
