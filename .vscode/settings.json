@@ -1,0 +1,14 @@
+{
+  "cSpell.customDictionaries": {
+    "custom-dictionary-workspace": {
+      "name": "custom-dictionary-workspace",
+      "path": "${workspaceFolder:mojxml2geojson}/.cspell/custom-dictionary-workspace.txt",
+      "addWords": true,
+      "scope": "workspace"
+    }
+  },
+  "cSpell.ignoreWords": [
+    "MojXml"
+  ],
+  "python.analysis.typeCheckingMode": "basic",
+}
