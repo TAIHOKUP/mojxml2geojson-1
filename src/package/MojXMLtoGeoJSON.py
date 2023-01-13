@@ -92,7 +92,10 @@ def MojXMLtoGeoJSON(mojObj: dict, exclude_flag):
         feature_list.append(feature)
 
     feature_collection = FeatureCollection(feature_list)
-    feature_collection['crs'] = {'properties': {'name': crs_name}, 'type': 'name'}
+    if crs_name is not None:
+        feature_collection['crs'] = {'properties': {'name': crs_name}, 'type': 'name'}
+    else:
+        feature_collection['crs'] = crs_name
 
     return geojson.dumps(feature_collection, ensure_ascii=False)
 
